@@ -29,7 +29,7 @@ input_text = """\
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 """
 
-data = map(int, input_text.split())
+data = list(map(int, input_text.split()))
 
 
 def traverse(start, end, step):
@@ -55,5 +55,5 @@ for index in range(0, len(data)):
     # backwards diagonal
     max_product = max(traverse(index, index + (4 * 19), 19), max_product)
 
-print max_product
+print(max_product)
 

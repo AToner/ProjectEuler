@@ -70,7 +70,7 @@ def get_prime_factors(n):
     current_value = float(n)
     prime_generator = gen_primes()
     while current_value > 1:
-        prime = prime_generator.next()
+        prime = next(prime_generator)
 
         integer = True
         while integer:
@@ -99,6 +99,6 @@ def number_divisors(num):
 for tn in gen_triangle_numbers():
     count = number_divisors(tn)
     if count >= 500:
-        print tn, count
+        print(tn, count)
         break
 

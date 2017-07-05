@@ -60,4 +60,4 @@ while current > 0:
                 current = 0
             break
 
-print max(factors)
+print(max(factors))

@@ -19,4 +19,4 @@ while result == 0:
 
     i += 1
 
-print result
+print(result)

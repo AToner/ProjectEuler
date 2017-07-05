@@ -43,4 +43,4 @@ for i in gen_primes():
 
     total += i
 
-print total
+print(total)

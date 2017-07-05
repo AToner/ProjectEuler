@@ -44,4 +44,4 @@ for prime in gen_primes():
     if count == 10001:
         break
 
-print prime
+print(prime)

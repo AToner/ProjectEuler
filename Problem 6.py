@@ -18,5 +18,5 @@ for i in range(1, 101):
 
 difference = (i_sum ** 2) - i_sum_squared
 
-print difference
+print(difference)
 

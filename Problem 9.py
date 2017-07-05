@@ -23,5 +23,5 @@ for a in range(1, target):
             if a + b + c > target: break
             if a + b + c == target:
                 if is_triplet(a, b, c):
-                    print [a, b, c]
-                    print [a * b * c]
+                    print([a, b, c])
+                    print([a * b * c])

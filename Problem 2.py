@@ -22,4 +22,4 @@ for number in fibonacci():
     if (number % 2) == 0:
         result += number
 
-print result
+print(result)
